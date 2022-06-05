@@ -1,0 +1,206 @@
+body{
+  background-color: rgb(240, 110, 153);
+}
+
+
+.nav{
+    background-color: #333;
+    margin: 0px;
+    padding: 1rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;  
+
+}
+
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #333;
+  
+
+}
+li{
+    color: rgb(204, 198, 198);
+    list-style-type: none;
+    float: left;
+    justify-content: end;
+    margin-right: 2em;
+}
+li a{
+    display: inline-block;
+    color: white;
+    
+    text-decoration: none;
+    
+    
+}
+.portfolio-box{
+    width: 1348px;
+    height: 200px;
+    background-color: rgb(12, 0, 0);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.a{
+  
+    height:190px ;
+    width: 220px;
+    justify-content: space-around;
+    
+}
+.profile{
+    display: flex;
+}
+
+.profile img{
+    border-radius: 5000px;
+
+}
+.profile h1{
+    display: flex;
+    text-align: center;
+
+}
+.profile p{
+    display: flex;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#con{
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px rgb(190, 164, 132) solid;
+    width: 500px;
+    height: 700px;
+    background-color:antiquewhite;
+    align-content: center;
+    text-align: center;
+
+}
+
+#con h1{
+    color: blue;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#con p{
+    color: rgb(144, 41, 204);
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.skl {
+  background:#d9d9d9;
+
+  padding: 30px 40px;
+  color: rgb(175, 17, 17);
+  text-align: center;
+ margin-left: 200px;
+ margin-right: 200px;
+}
+
+h1 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+  margin-bottom: 13px;;
+}
+
+input {
+  width: 60%;
+  margin-right: 0;
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.addBtn {
+  width: 25%;
+  padding: 10px;
+  margin-left:0;
+  background: #df8282;
+  color: rgb(129, 126, 126);
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  
+}
+
+.addBtn:hover {
+  background-color: rgb(157, 194, 142);
+  color: rgb(240, 21, 21);
+}
+
+ul li {
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: rgb(110, 157, 198);
+  font-size: 14px;
+  transition: 0.2s;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+ul li:nth-child(odd) {
+  background: #b4d3c7;
+}
+
+ul li:hover {
+  background: rgb(94, 105, 99);
+}
+
+
+ul li.checked {
+  background: #888;
+  color: rgb(201, 27, 27);
+  text-decoration: line-through;
+}
+
+
+ul li.checked::before {
+  content: "";
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+.far {
+  position: absolute;
+  right: 0;
+  border:50PX rgb(78, 40, 40);
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.far:hover {
+  background-color: rgb(135, 106, 176);
+  color: rgb(94, 15, 15);
+}
